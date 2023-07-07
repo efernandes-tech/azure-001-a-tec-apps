@@ -15,5 +15,6 @@
 
 4 - Connect via SSH with Putty or Linux:
 
+    chmod 400 azure-001-a-tec-apps-vm_key.pem
     ssh -i azure-001-a-tec-apps-vm_key.pem azureuser@172.190.9.160
     sudo apt-get update
