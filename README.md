@@ -18,3 +18,11 @@
     chmod 400 azure-001-a-tec-apps-vm_key.pem
     ssh -i azure-001-a-tec-apps-vm_key.pem azureuser@172.190.9.160
     sudo apt-get update
+    sudo apt install mysql-client-core-8.0
+    mysql --version
+
+5 - Create resource: Server MySQL
+
+    ssh -i azure-001-a-tec-apps-vm_key.pem azureuser@172.190.9.160
+    mysql -h azure-001-a-tec-apps-db.mysql.database.azure.com -u ederson -p
+    show databases;
