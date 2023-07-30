@@ -56,7 +56,7 @@
     git clone https://github.com/alura-cursos/1862-sequelize.git
     cd 1862-sequelize/api/config
     vim config.js
-    -- Edit configs
+    -- Edit config
     :wq
     cd ../..
     npm install express --save
